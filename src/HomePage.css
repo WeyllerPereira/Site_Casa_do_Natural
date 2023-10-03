@@ -1,0 +1,165 @@
+.floating-icon {
+    position: absolute;
+    transition: all 1.5s ease-in-out;
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.explore-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.explore-btn:hover {
+    background-color: #45a049;
+}
+
+/* Adiciona um leve efeito de sombra para um toque "natural" */
+.floating-icon {
+    position: absolute;
+    transition: all 1.5s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Adiciona um tom terroso ao fundo da caixa de texto */
+.text-box {
+    background-color: rgba(245, 222, 179, 0.8);
+    /* Wheat */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* Isso alinha o texto ao centro no eixo x */
+}
+
+/* Botão com cores que lembram a natureza */
+.explore-btn {
+    background-color: #6B8E23;
+    /* Olive Drab */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px auto;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Efeito hover para o botão */
+.explore-btn:hover {
+    background-color: #556B2F;
+    /* Dark Olive Green */
+}
+
+/* Adiciona posição relativa para que a planta flutue dentro deste elemento */
+.home {
+    position: relative;
+    height: 200vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Isto centraliza elementos filhos horizontalmente */
+
+}
+
+.react-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    animation: App-logo-spin infinite 4s linear;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
+    border: 2px solid black;
+    border-radius: 70%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.react-icon:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.1);
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+/* Estilizando o SVG */
+.react-icon svg {
+    fill: #333;
+    /* Preenchimento escuro */
+    stroke: #FFF;
+    /* Contorno em branco */
+    stroke-width: 2;
+    /* Largura do contorno */
+}
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes spin {
+    0% {
+        transform: perspective(600px) rotateX(0deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(600px) rotateX(360deg) rotateY(360deg);
+    }
+}
+
+
+@keyframes spin {
+    0% {
+        transform: perspective(600px) rotateX(0deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(600px) rotateX(360deg) rotateY(360deg);
+    }
+}
+
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
